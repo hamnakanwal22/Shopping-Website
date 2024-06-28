@@ -170,7 +170,105 @@ box-shadow: 0 0.125rem 1.75rem 1 rgba(0, 0, 0, 0.09);
 .navigation-wrap.scroll-on .nav-link:active{
     color: var(--primary-color);
 }
+.new-arrivals .baner-info {
+    bottom: 30px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    z-index: 9;
+    padding: 0 15px;
+}
+.new-arrivals .card-banner:nth-child(2) h2,
+.new-arrivals .card-banner:nth-child(2) p,
+.new-arrivals .card-banner:nth-child(2) a{
+    color:var(--black)
+}
+.new-arrivals .card-banner:nth-child(2) a::before,
+.new-arrivals .card-banner:nth-child(2) a::after{
+    background-color: var(--black);
+}
+.new-arrivals .card-banner .card-thumb,
+.prducts .product-items{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.new-arrivals .card-banner .card-thumb img,
+.prducts .product-items img{
+transition: all .5s ease-out 0s;
+}
+.new-arrivals .card-banner .card-thumb img:hover,
+.prducts .product-items img:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.prducts .wrapper{
+    background-color: var(--black);
+}
+.prducts .nav-tabs{
+    border: 0;
+    justify-content: center;
+}
+.prducts .nav-tabs .nav-link{
+    display: block;
+    padding: 0 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin: 10px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+.prducts .product-info .cat-parent,
+.prducts .product-info .whishlist {
+    font-size: 0.875rem;
+    opacity: 0.6;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.prducts .prducts-title a{
+margin: 0 0 7px;
+color: white;
+display: block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space:nowrap;
+text-transform: uppercase;
+text-decoration: none;
+}
+.prducts .rating{
+    color: #f4f632;
+}
+.basket  a i{
+    color: white;
+}
+.whishlist a i{
+    color: white;
 
+}
+.deal-of-the-day {
+    background-image: url(images/img/img-4.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.block-sec {
+    background-color: black;
+}
+.footer{
+    background-color:#333;
+}
+.footer .footer-social a i{
+    font-size: 1.5rem;
+    color: white;
+    padding: 0 1rem;
+}
+.footer .footer-social a:hover i{
+    color: var(--primary-color);
+}
 @media (max-width:900px) {
     h4{
         font-size: 0.9375rem;
